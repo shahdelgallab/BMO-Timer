@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <link rel="stylesheet" href="styles/all.min.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="timer">
+      <div class="top">
+        <div id="face">
+          <div class="eye1"></div>
+          <div class="eye2"></div>
+        </div>
+        <div class="clock" id="clock">
+          <div class="setter">
+            <input class="h" type="number" min="0" value="0">:
+            <input class="m" type="number" min="0" value="0">: 
+            <input class="s" type="number" min="0" value="0">
+          </div>
+        </div>
+      </div>
+      <div class="bot">
+        <div class="random"></div>
+        <div class="cl">Timer</div>
+          <button class="play">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <button class="pause">
+            <i class="fa-solid fa-pause"></i>
+          </button>
+          <button class="reset">
+            <i class="fa-solid fa-rotate-right"></i>
+          </button>
+          <div class="plus"></div>
+          <div class="blue1"></div>
+          <div class="blue2"></div>
+          <div class="greenc"></div>
+      </div>
+    </div>
+    <div class="hand1"></div>
+    <div class="hand2"></div>
+    <div class="leg1"></div>
+    <div class="leg2"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
